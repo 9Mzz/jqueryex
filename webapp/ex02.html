@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>자바스크립트 예제</h1>
+
+	<script type="text/javascript">
+		/*  자료형을 쓰지 않는다!! */
+		/* 메모  */
+		var no = 3;
+		var str;
+		var boo;
+
+		str = "안녕하세요";
+		console.log(no); //3
+		console.log(str); //안녕하세요
+
+		console.log(typeof no); //number
+		console.log(typeof str); //String
+		console.log(typeof boo); //undefined
+		boo = 3 < 5;
+		console.log(typeof boo); //값 정해짐 
+
+		boo = "구민석";
+		console.log(boo); //구민석
+		console.log(typeof boo); //String
+
+		var person = "구민석";
+		var person = "이효리";
+		console.log(person); //구민석
+
+		// let, const 선언문도 공부해보자
+	</script>
+
+
+	<script type="text/javascript">
+		console.log("*************null undefined*************");
+		var myVar1;
+		var myVar2 = null;
+		console.log(typeof myVar1);
+		console.log(typeof myVar2);
+
+		console.log("================================");
+		var num = 123;
+		console.log("123" == 123); //true	<< 
+		console.log("123" === 123); //false << 자료형까지 검사
+
+		console.log(myVar1 == myVar2); //undefined == null
+		console.log(myVar1 === myVar2); // undefined === null 
+
+		console.log("" == false) //true
+		console.log("" == 0);
+	</script>
+
+</body>
+</html>
